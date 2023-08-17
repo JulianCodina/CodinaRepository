@@ -1,21 +1,13 @@
 package recursividad;
 
 import java.util.Scanner;
-
-public class factorial {
-    public static int factorial(int n){
-        if(n == 1 || n == 0){
-            return 1;
-        }else{
-            return n * factorial(n-1);
-        }
-    }
-
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Inserte un numero para sacar factorial: ");
-        int n = input.nextInt();
-        System.out.print("\nEl resultado es: " + factorial(n));
+public class factorial{
+public static void main(String[]args){
+    Scanner input=new Scanner(System.in);
+    System.out.print("Inserte un numero para sacar factorial: ");
+    int n=input.nextInt();
+    System.out.println("El resultado de manera recursiva es: "+FactRecursivo.factorial(n));
+    System.out.println("El resultado de manera iterativa es: "+FactIterativo.factorial(n));
     }
 }
 
