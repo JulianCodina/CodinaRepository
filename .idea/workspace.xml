@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="ejercicio imposible de empleados">
-      <change afterPath="$PROJECT_DIR$/src/DataBase/Estudiantes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="retoque">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proyect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Archivo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -132,22 +132,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Downloads/mysql-connector-java-5.1.12/mysql-connector-java-5.1.12-bin.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/backup/trabajos/utn/lab2/Codina_lab2_Java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.Estudiantes">
+}]]></component>
+  <component name="RunManager" selected="Application.EmpleadoSerializado.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="EmpleadoSerializado.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializado.Main" />
+      <module name="proyect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmpleadoSerializado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Estudiantes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataBase.Estudiantes" />
@@ -156,6 +170,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializados.Main" />
+      <module name="proyect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EmpleadoSerializados.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,20 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="divisionRestas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursividad.divisionRestas" />
-      <module name="proyect" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursividad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursividad.factorial" />
       <module name="proyect" />
@@ -207,14 +221,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ordenarArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordenarArray" />
-      <module name="proyect" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,18 +253,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ordenarArray" />
+      <item itemvalue="Application.EmpleadoSerializado.Main" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Estudiantes" />
       <item itemvalue="Application.SumaRecursiva" />
       <item itemvalue="Application.factorial" />
-      <item itemvalue="Application.divisionRestas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmpleadoSerializado.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Estudiantes" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.SumaRecursiva" />
-        <item itemvalue="Application.divisionRestas" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692303702353</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="retoque">
+      <created>1695162190066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695162190066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,7 +359,8 @@
     <MESSAGE value="ejercicio restas completo" />
     <MESSAGE value="ejercicio sumas completo" />
     <MESSAGE value="ejercicio factorial completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio factorial completo" />
+    <MESSAGE value="retoque" />
+    <option name="LAST_COMMIT_MESSAGE" value="retoque" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/javaClass.java">
