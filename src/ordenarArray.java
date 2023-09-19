@@ -4,7 +4,7 @@ el programa debe ordenarlos de mayor a menor y mostrar el resultado por pantalla
 
 import java.util.Scanner;
 import java.util.Arrays;
-public class actividad1 {
+public class ordenarArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
