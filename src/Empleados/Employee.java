@@ -153,7 +153,7 @@ class EmployeeManager {
         String nombre;
 
         System.out.println("Seleccione el tipo de empleado aue desea agregar:");
-        System.out.println("1- Empleado asalariado\n2- Empleado por hora\n3- Empleado por comisión\n");
+        System.out.println("1- EmpleadoSerializado.Empleado asalariado\n2- EmpleadoSerializado.Empleado por hora\n3- EmpleadoSerializado.Empleado por comisión\n");
         choice = scanner.nextInt();
 
         System.out.println("Nombre:");
