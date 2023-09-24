@@ -1,0 +1,11 @@
+git config --global user.name "CodinaJulian"
+git config --global user.name "depedrojulianismael@gmail.com"
+
+git init 		inicia el repositorio local
+
+
+git branch -M main 	te mueve a esa rama
+
+git branch		te dice en que rama estas
+
+git push origin main	
