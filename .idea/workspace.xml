@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="serializacion">
-      <change afterPath="$PROJECT_DIR$/src/Cuenta/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cuenta/CuentaPersonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cuenta/CuentaSociedad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cuenta/GestorCuentas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cuenta/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Concesionaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehiculos/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestor_empleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gestor_empleados.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Cuenta/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyect/Cuenta/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,15 +138,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/backup/trabajos/utn/lab2/Codina_lab2_Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/backup/trabajos/utn/lab2/Codina_lab2_Java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -152,10 +156,30 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ArrayLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayLista" />
+    <configuration name="AstVehiculos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AstVehiculos.Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AstVehiculos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstridVehiculos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AstridVehiculos.Main" />
+      <module name="proyect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AstridVehiculos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,13 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Estudiantes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataBase.Estudiantes" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializado.Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataBase.*" />
+          <option name="PATTERN" value="EmpleadoSerializado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,13 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializados.Main" />
+    <configuration name="Vehiculos.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vehiculos.main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EmpleadoSerializados.*" />
+          <option name="PATTERN" value="Vehiculos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +233,12 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cuenta.main" />
+      <option name="MAIN_CLASS_NAME" value="Prog2.Date.main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cuenta.*" />
+          <option name="PATTERN" value="Prog2.Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +274,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AstVehiculos.Main" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.ArrayLista" />
+      <item itemvalue="Application.Vehiculos.main" />
       <item itemvalue="Application.EmpleadoSerializado.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Estudiantes" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.Vehiculos.main" />
+        <item itemvalue="Application.AstVehiculos.Main" />
         <item itemvalue="Application.EmpleadoSerializado.Main" />
-        <item itemvalue="Application.ArrayLista" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Estudiantes" />
       </list>
     </recent_temporary>
   </component>

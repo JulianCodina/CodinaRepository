@@ -9,18 +9,39 @@ class ExceptionRange extends Exception {
     }
 
 }
-
 public class Main {
-    public static int verifyRange() throws ExceptionRange{
+    public static int verifyRange() throws ExceptionRange {
         Scanner input = new Scanner(System.in);
         int valor = input.nextInt();
-        if(valor<1 || valor>3){
+        if (valor < 1 || valor > 3) {
             throw new ExceptionRange("Opción fuera de rango.");
-        }else{
+        } else {
             return valor;
         }
     }
+
     public static void main(String[] args) {
+
+        String archivo = "gestor_empleados.txt";
+        File file = new File(archivo);
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        try {
+            ObjectInputStream leerFichero = new ObjectInputStream(new FileInputStream(archivo));
+            GestorEmpleados gestorLeido = (GestorEmpleados) leerFichero.readObject();
+            leerFichero.close();
+
+        } catch (FileNotFoundException e) {
+            System.out.println("El archivo '" + archivo + "' no existe. Debe crearlo primero.");
+        } catch (Exception e) {
+            System.out.println("Error al leer el archivo: " + e.getMessage());
+        }
+
         Scanner input = new Scanner(System.in);
         GestorEmpleados gestor = new GestorEmpleados();
         int again;
@@ -45,39 +66,15 @@ public class Main {
             System.out.print("Si desea realizar otro cambio ingrese 1: ");
             again = input.nextInt();
 
-        }while(again==1);
+        } while (again == 1);
 
-        // Nombre del archivo
-        String archivo = "gestor_empleados.txt";
-
-        // Ahora guardamos el objeto EmpleadoSerializado.GestorEmpleados en un archivo
+        System.out.println(file);
         try {
-            // Verificar si el archivo existe, y si no existe, crearlo
-            File file = new File(archivo);
-            if (!file.exists()) {
-                file.createNewFile();
-            }
-
             ObjectOutputStream escribirFichero = new ObjectOutputStream(new FileOutputStream(file));
             escribirFichero.writeObject(gestor);
             escribirFichero.close();
         } catch (IOException e) {
             System.out.println("Error al escribir o crear el archivo: " + e.getMessage());
-        }
-
-        // Ahora leemos el objeto EmpleadoSerializado.GestorEmpleados desde el archivo
-        try {
-            ObjectInputStream leerFichero = new ObjectInputStream(new FileInputStream(archivo));
-            GestorEmpleados gestorLeido = (GestorEmpleados) leerFichero.readObject();
-            leerFichero.close();
-
-            // Puedes usar gestorLeido para trabajar con los datos leídos desde el archivo
-            System.out.println("Datos leídos desde el archivo:");
-            System.out.println(gestorLeido);
-        } catch (FileNotFoundException e) {
-            System.out.println("El archivo '" + archivo + "' no existe. Debe crearlo primero.");
-        } catch (Exception e) {
-            System.out.println("Error al leer el archivo: " + e.getMessage());
         }
     }
 }
