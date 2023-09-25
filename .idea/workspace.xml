@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="serializacion">
-      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Concesionaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Serializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehiculos/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog2/Animales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestor_empleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gestor_empleados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proyect/Cuenta/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyect/Cuenta/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,16 +131,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/backup/trabajos/utn/lab2/Codina_lab2_Java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/backup/trabajos/utn/lab2/Codina_lab2_Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -274,6 +267,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AstridVehiculos.Main" />
       <item itemvalue="Application.AstVehiculos.Main" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.Vehiculos.main" />
