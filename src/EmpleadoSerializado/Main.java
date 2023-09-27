@@ -68,7 +68,6 @@ public class Main {
 
         } while (again == 1);
 
-        System.out.println(file);
         try {
             ObjectOutputStream escribirFichero = new ObjectOutputStream(new FileOutputStream(file));
             escribirFichero.writeObject(gestor);

@@ -5,8 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="serializacion">
-      <change afterPath="$PROJECT_DIR$/src/Prog2/Animales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes_Ficheros/EscrituraArchivoTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes_Ficheros/Serializacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes_Ficheros/SerializacionArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlogNotas/Funciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlogNotas/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestor_empleados.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Concesionaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Moto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Serializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/AstVehiculos/Vehiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyect/EmpleadoSerializado/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Book/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Book/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Date/MyDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Date/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Electrodomesticos/Electrodoméstico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Electrodomesticos/Lavarropas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Electrodomesticos/Television.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Electrodomesticos/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/GeometricObject/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/GeometricObject/GeometricObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/GeometricObject/Resizable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/GeometricObject/ResizableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Movable/Movable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Movable/MovableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Movable/MovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Person/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Person/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Servicios/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Servicios/DiscountRate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Servicios/Visit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Shape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Shape/circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Shape/rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/Shape/square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/circle/Cylider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/circle/circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyect/Prog2/circle/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstVehiculos/Concesionaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstVehiculos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstVehiculos/Serializable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstVehiculos/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpleadoSerializado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Animales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Book/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Book/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Book/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Book/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Date/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Date/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Date/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Date/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Electrodomesticos/Electrodoméstico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Electrodomesticos/Electrodoméstico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Electrodomesticos/Lavarropas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Electrodomesticos/Lavarropas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Electrodomesticos/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Electrodomesticos/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Electrodomesticos/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Electrodomesticos/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/GeometricObject/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/GeometricObject/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/GeometricObject/GeometricObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/GeometricObject/GeometricObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/GeometricObject/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/GeometricObject/Resizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/GeometricObject/ResizableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/GeometricObject/ResizableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Movable/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Movable/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Movable/MovableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Movable/MovableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Movable/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Movable/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Person/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Person/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Person/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Servicios/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Servicios/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Servicios/DiscountRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Servicios/DiscountRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Servicios/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Servicios/Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Shape/circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Shape/circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Shape/rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Shape/rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/Shape/square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Shape/square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/circle/Cylider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/circle/Cylider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/circle/circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/circle/circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog2/circle/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/circle/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehiculos.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +218,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -163,13 +240,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AstridVehiculos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AstridVehiculos.Main" />
+    <configuration name="Bloc_De_Notas.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bloc_De_Notas.Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AstridVehiculos.*" />
+          <option name="PATTERN" value="Bloc_De_Notas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,44 +254,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmpleadoSerializado.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializado.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EmpleadoSerializado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmpleadoSerializado.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EmpleadoSerializado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vehiculos.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vehiculos.main" />
-      <module name="proyect" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Vehiculos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,12 +277,12 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog2.Date.main" />
+      <option name="MAIN_CLASS_NAME" value="__Prog2__.main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prog2.Date.*" />
+          <option name="PATTERN" value="__Prog2__.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,20 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AstridVehiculos.Main" />
+      <item itemvalue="Application.Bloc_De_Notas.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.AstVehiculos.Main" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.Vehiculos.main" />
-      <item itemvalue="Application.EmpleadoSerializado.Main" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Bloc_De_Notas.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Vehiculos.main" />
         <item itemvalue="Application.AstVehiculos.Main" />
-        <item itemvalue="Application.EmpleadoSerializado.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
