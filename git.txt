@@ -1,11 +1,16 @@
-git config --global user.name "CodinaJulian"
-git config --global user.name "depedrojulianismael@gmail.com"
-
 git init 		inicia el repositorio local
-
 
 git branch -M main 	te mueve a esa rama
 
 git branch		te dice en que rama estas
 
-git push origin main	
+
+
+git config --global user.name "CodinaJulian"
+git config --global user.name "depedrojulianismael@gmail.com"
+git config user.password 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
+
+git remote add origin "direccion sin comillas"
+git add.
+git commit -m "texto"
+git push -u origin main	
