@@ -150,7 +150,7 @@ public class Main {
     }
 
 
-    abstract class Persona {
+    abstract class Persona implements Serializable{
         private String nombreApellido;
 
         public Persona(String nombreApellido) {
@@ -163,6 +163,7 @@ public class Main {
         public String getNombreApellido() {
             return nombreApellido;
         }
+        public abstract void mostrarInfo();
     }
 
     class Huespedes extends Persona implements MostrarInformacion, Serializable {

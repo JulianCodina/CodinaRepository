@@ -9,7 +9,7 @@ git branch		te dice en que rama estas
 git config --global user.name "JulianCodina"
 git config --global user.email "depedrojulianismael@gmail.com"
 git config user.password "token"
-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
+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
 
 git remote add origin "direccion sin comillas"
 git add.

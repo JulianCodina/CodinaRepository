@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce209cdd-d10d-4a72-9f63-30d88f6f31b1" name="Default" comment="serializacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Habitaciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Huespedes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MostrarInformacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__Prog2__/Avengers/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/__Prog2__/Avengers/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__Prog2__/Avengers/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hotel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hotel/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,22 +131,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/backup/trabajos/utn/lab2/Codina_lab2_Java/src",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/backup/trabajos/utn/lab2/Codina_lab2_Java/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\backup\trabajos\utn\lab2\Codina_lab2_Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -161,7 +154,7 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hotel.Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -175,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hotel.Main" />
       <module name="proyect" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -265,19 +258,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
